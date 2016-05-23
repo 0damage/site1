@@ -1,0 +1,93 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .maian_mnu ul {
+        display:none;
+        background-color:#3797bf;
+        position:absolute;
+        width:100%;
+    } 
+    .maian_mnu ul li {
+        display:inline-block;
+    }
+    .sell_right .button {
+        margin:15px auto; /* хз */
+        float:none;
+        max-width:250px;
+    }
+    .sell_descr {
+        text-align:center;
+    }
+    .sell_descr i {
+        display:none;
+    }
+    .text2 .button1 {
+        display:inline-block; /* для прайса*/
+        margin:15px 0px 15px 0px; /* верх право низ лево*/
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .top_links {
+        background-color:#585d61; /* чуть более осветленный цвет */
+        display:none; /* Убирает вход/рега */
+        margin-top:15px;
+        padding:14px;
+        vertical-align:middle;
+        width:100%;
+        position:absolute; /* Чтобы выдвигалось вниз */
+    }
+    .maian_mnu ul {
+        display:none;
+    }
+    
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .top_links {
+        display:inline-block !important; /* Чтоб вход/рега не скрывалась при большом экране */
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .maian_mnu ul {
+        display:block !important;
+    }
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
